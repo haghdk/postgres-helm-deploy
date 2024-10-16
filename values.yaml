@@ -7,7 +7,13 @@ global:
       postgresqlDatabase: "budgetapp"
   repmgr:
     existingSecret: postgres-secret
-    repmgrPasswordKey: repmgr-password 
+    repmgrPasswordKey: repmgr-password
+
+pgpool:
+  adminUsername: "admin"
+  adminPassword: "morten3103"
+  replicationUsername: "admin"
+  replicationPasswordKey: repmgr-password
 
 primary:
   persistence:
