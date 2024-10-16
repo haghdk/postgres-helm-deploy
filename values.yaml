@@ -1,8 +1,8 @@
 global:
   postgresql:
     existingSecret: postgres-secret
-    postgresqlUsernameKey: postgresql-username
-    postgresqlPasswordKey: postgresql-password
+    postgresqlUsernameKey: username
+    postgresqlPasswordKey: password
     postgresqlDatabase: "budgetapp"
 
 primary:
