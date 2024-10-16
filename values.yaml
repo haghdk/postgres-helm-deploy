@@ -10,9 +10,9 @@ global:
     repmgrPasswordKey: repmgr-password
 
 pgpool:
-  adminUsername: "admin"
-  adminPassword: "morten3103"
-  replicationUsername: "admin"
+  adminUsername: pg-user
+  adminPassword: pg-password
+  replicationUsername: repmgr-user
   replicationPasswordKey: repmgr-password
 
 primary:
