@@ -1,9 +1,10 @@
 global:
   postgresql:
-    existingSecret: postgres-secret
-    postgresqlUsernameKey: username
-    postgresqlPasswordKey: password
-    postgresqlDatabase: "budgetapp"
+    auth:
+      existingSecret: postgres-secret
+      postgresqlUsernameKey: username
+      postgresqlPasswordKey: password
+      postgresqlDatabase: "budgetapp"
 
 primary:
   persistence:
