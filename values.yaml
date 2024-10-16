@@ -5,6 +5,9 @@ global:
       postgresqlUsernameKey: username
       postgresqlPasswordKey: password
       postgresqlDatabase: "budgetapp"
+  repmgr:
+    existingSecret: postgres-secret
+    repmgrPasswordKey: repmgr-password 
 
 primary:
   persistence:
